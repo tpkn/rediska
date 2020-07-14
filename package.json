@@ -1,0 +1,21 @@
+{
+   "name": "rediska",
+   "main": "rediska.js",
+   "version": "1.0.2",
+   "author": {
+      "url": "https://github.com/tpkn/"
+   },
+   "repository": "https://github.com/tpkn/rediska",
+   "license": "MIT",
+   "keywords": [
+      "redis",
+      "rediska",
+      "promise",
+      "promisify",
+      "async",
+      "await"
+   ],
+   "dependencies": {
+      "redis": "latest"
+   }
+}
