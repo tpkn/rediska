@@ -11,7 +11,7 @@ const rediska = require('rediska')([client]);
 
 
 ### client
-**Type**: _Object_ 
+**Type**: _Object_   
 Custom redis client instance
 
 
