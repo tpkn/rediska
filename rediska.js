@@ -5,12 +5,17 @@ const redis = require('redis');
 const { promisify } = require('util');
 
 module.exports = (client, options = {}) => {
+   let { 
+      silent = false 
+   } = options;
+   
    if(typeof client === 'undefined'){
       client = redis.createClient();
    }
 
-   // Silence redis errors 
-   client.on('error', () => {});
+   if(silent){
+      client.on('error', () => {});
+   }
 
    let rediska = {};
    let list = [ 
