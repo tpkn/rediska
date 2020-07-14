@@ -10,13 +10,13 @@ const rediska = require('rediska')([client]);
 ```
 
 
-## client
+### client
 **Type**: _Object_ 
 Custom redis client instance
 
 
 
-### @output
+### @return
 **Type**: _Object_  
 ```javascript
 { redis, client, rediska }
