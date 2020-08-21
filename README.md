@@ -40,3 +40,12 @@ const { redis, client, rediska } = require('rediska')();
 
 })();
 ```
+
+
+
+## Changelog 
+#### v1.1.0:
+- added uppercase alias for each command
+
+
+
